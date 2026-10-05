@@ -12,11 +12,11 @@ format:
 
 ## Introduction
 
-## A short justification for your choice of experiment in terms of your research interests or research program. This justification should tell us why you chose this particular result.
+### A short justification for your choice of experiment in terms of your research interests or research program. This justification should tell us why you chose this particular result.
 
 My NSF GRFP application proposes the comparison of AI vision models and humans in judgments of object-scene context. The majority of paradigms in scene semantics utilize highly incongruent and congruent objects. I’ve been interested in investigating the full semantic spectrum by varying the level of semantic congruency on a continuous scale. Su et al., 2025 does this with a vector-space semantic model. In experiment 1b, they scored congruency on a continuous scale using word similarity and found a U-shape relationship (objects identified best when they fit the scene very well or very poorly). I’m choosing to replicate experiment 1b because it was preregistered, uses the same task as Experiment 1a (which ran online), and aims to treat congruency as continuous. The original study was run with Chinese speakers and a Chinese word model, so I’m curious if conducting it with English speakers at UCSD will also determine whether their U-shaped finding stays present. I also plan to score the same scene-object pairs with CLIP, DINO, and a large language model to determine which predicts participants’ accuracy best (my GRFP’s first aim).
 
-## A description of the stimuli and procedures that will be required to conduct this experiment, and what the challenges will be (1-2 paragraphs).
+### A description of the stimuli and procedures that will be required to conduct this experiment, and what the challenges will be (1-2 paragraphs).
 
 The planned stimuli are photos of naturalistic real-world scenes taken from the SCEGRAM database.
 (Öhlschläger & Võ, 2017), the Berlin Object in Scene database (Mohr et al., 2016), and the Internet. Congruency for the similarities between object-scene pairs will be determined with ConceptNet Numberbatch. During each trial, a fixation cross will appear for 800 to 1,000 ms, and the scene will be presented for 2.5 s. After a 500 ms pause with another fixation cross, two alternatives of the same kind of object will appear. One object will be from the scene recently presented, and the other is a different example of the same object. Participants press F or J on a keyboard to pick the one they saw. In addition, six catch trials will ask participants what kind of scene was shown to assess engagement. I’m planning to run around 60 people on SONA, since the authors’ power analysis requires at least 46.
