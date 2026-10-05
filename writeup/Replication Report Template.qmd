@@ -33,7 +33,12 @@ One object will be from the scene recently presented, and the other is a differe
 In addition, six catch trials will ask participants what kind of scene was shown to assess engagement. 
 I’m planning to run around 60 people on SONA, since the authors’ power analysis requires at least 46.
 
-The first challenge will be receiving access to the stimuli. The OSF page linked has the data and scripts, but the paper doesn’t say whether the images are open. I will need to work on getting the 76 scenes used and lure items from the authors. The second is language. The original study used the Chinese version of Numberbatch, and the stimuli were screened for familiarity with Chinese participants. English scores will likely shift some congruency values, and some objects may be less familiar or more familiar to UCSD students.
+The first challenge will be receiving access to the stimuli. 
+The OSF page linked has the data and scripts, but the paper doesn’t say whether the images are open. 
+I will need to work on getting the 76 scenes used and lure items from the authors. 
+The second is language. 
+The original study used the Chinese version of Numberbatch, and the stimuli were screened for familiarity with Chinese participants. 
+English scores will likely shift some congruency values, and some objects may be less familiar or more familiar to UCSD students.
 
 ## Methods
 
