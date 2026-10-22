@@ -12,33 +12,40 @@ format:
 
 ## Introduction
 
+
+
 ### A short justification for your choice of experiment in terms of your research interests or research program. This justification should tell us why you chose this particular result.
 
-My NSF GRFP application proposes the comparison of AI vision models and humans in judgments of object-scene context. 
-The majority of paradigms in scene semantics utilize highly incongruent and congruent objects. 
-I’ve been interested in investigating the full semantic spectrum by varying the level of semantic congruency on a continuous scale. 
-Su et al., 2025 does this with a vector-space semantic model. 
-In experiment 1b, they scored congruency on a continuous scale using word similarity and found a U-shape relationship (objects identified best when they fit the scene very well or very poorly). 
-I’m choosing to replicate experiment 1b because it was preregistered, uses the same task as Experiment 1a (which ran online), and aims to treat congruency as continuous. 
-The original study was run with Chinese speakers and a Chinese word model, so I’m curious if conducting it with English speakers at UCSD will also determine whether their U-shaped finding stays present. 
-I also plan to score the same scene-object pairs with CLIP, DINO, and a large language model to determine which predicts participants’ accuracy best (my GRFP’s first aim).
+The majority of existing studies investigating scene knowledge through visual attention have relied on stimuli that are highly congruent versus highly incongruent (e.g., kitchen scene: highly incongruent toilet paper roll versus highly congruent coffee cup). For these objects, both graded and categorical accounts predict that people will look at and process the plate and the toilet paper differently. However, these accounts have different predictions for moderately congruent objects (e.g., the book). 
+
+My research interests are in scene semantics and paradigms that capture naturalistic scenarios. 
+
+Su et al., 2025's experiment 1a effectively tests the paragraph above and relates to my research interests. Here, they tested whether memory for objects follow a U-shape across the continuous semantic spectrum. 
+
+
 
 ### A description of the stimuli and procedures that will be required to conduct this experiment, and what the challenges will be (1-2 paragraphs).
 
-The planned stimuli are photos of naturalistic real-world scenes taken from the SCEGRAM database (Öhlschläger & Võ, 2017), the Berlin Object in Scene database (Mohr et al., 2016), and the Internet. 
-Congruency for the similarities between object-scene pairs will be determined with ConceptNet Numberbatch. 
-During each trial, a fixation cross will appear for 800 to 1,000 ms, and the scene will be presented for 2.5 s. 
-After a 500 ms pause with another fixation cross, two alternatives of the same kind of object will appear. 
-One object will be from the scene recently presented, and the other is a different example of the same object. Participants press F or J on a keyboard to pick the one they saw. 
-In addition, six catch trials will ask participants what kind of scene was shown to assess engagement. 
-I’m planning to run around 60 people on SONA, since the authors’ power analysis requires at least 46.
+The planned stimuli are photos of naturalistic real-world scenes taken from the SCEGRAM database (Öhlschläger & Võ, 2017), the Berlin Object in Scene database (Mohr et al., 2016), and the Internet. Congruency for the similarities between object-scene pairs will be determined with ConceptNet Numberbatch. An email to the author, Dr. Xiaowei Ding requesting access to their stimulus set has been sent (10/21/2026). 
 
-The first challenge will be receiving access to the stimuli. 
-The OSF page linked has the data and scripts, but the paper doesn’t say whether the images are open. 
-I will need to work on getting the 76 scenes used and lure items from the authors. 
-The second is language. 
-The original study used the Chinese version of Numberbatch, and the stimuli were screened for familiarity with Chinese participants. 
-English scores will likely shift some congruency values, and some objects may be less familiar or more familiar to UCSD students.
+The planned procedure for the session: 
+Consent, instructions, 96 trials in random order (90 experimental, 6 catch), debrief, then SONA credit. 
+
+What a trial will look like: 
+Screen              Duration                            Participant
+Fixation cross	    800–1,000 ms, random each trial	    Looks at the center
+Scene	            2,500 ms	                        Views freely
+Fixation cross	    500 ms	                            Waits
+Two objectse	    Until response key                  F for the left object, J for the right object 
+
+Challenge: 
+The original study used the Chinese version of Numberbatch, and the stimuli were screened for familiarity with Chinese participants. English scores will likely shift some congruency values, and some objects may be less familiar or more familiar to UCSD students.
+
+**** Adressing Haoyu's feedback to describe the difference between 1a and 1b: 
+
+In 1a and 1b the participants go through the same identification task. The main difference with 1b is that participants have an additional session where they have to complete and fill out a form where they name all the scenes and objects that were from the stimuli (e.g., bathroom and umbrella).
+
+
 
 ## Methods
 
@@ -46,9 +53,18 @@ English scores will likely shift some congruency values, and some objects may be
 
 Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size.  Considerations of feasibility for selecting planned sample size.
 
+
+
 ### Planned Sample
 
 Planned sample size and/or termination rule, sampling frame, known demographics if any, preselection rules if any.
+
+Original: "69 participants (37 participants reported their gender as female, 32 as male; age: M = 23.01 years, SD = 2.55)."
+
+I'm aiming for around 100 to 120 people. 
+
+
+
 
 ### Materials
 
@@ -58,11 +74,23 @@ All materials - can quote directly from original article - just put the text in 
 
 Can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
 
+
+
+
 ### Analysis Plan
 
-Can also quote directly, though it is less often spelled out effectively for an analysis strategy section.  The key is to report an analysis strategy that is as close to the original - data cleaning rules, data exclusion rules, covariates, etc. - as possible.  
+Report an analysis strategy that is as close to the original - data cleaning rules, data exclusion rules, covariates, etc. - as possible.  
+
+"We evaluated our hypotheses by comparing two models: one that included both linear and quadratic components derived from a second-order polynomial expansion of scene-object congruency (quadratic model) and another that included only a linear component (linear model)."
+
+I plan to reuse the four image-based covariates and collect new familiarity ratings.
+
+"We also considered some confounding variables: saliency, size, center proximity, complexity, and familiarity,
+which were included in the further regression model analysis to control for their potential effects. For saliency, we calculated the saliency rank within 15 simulated fixations using the Saliency Toolbox (Walther & Koch, 2006)."
 
 **Clarify key analysis of interest here**  You can also pre-specify additional analyses you plan to do.
+
+
 
 ### Differences from Original Study
 
