@@ -15,16 +15,25 @@
   <body></body>
 
   <script>
+
+  // task instructions would go here... 
     const jsPsych = initJsPsych();
-
+    
     const hello_trial = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: 'Instructions go here...TBD'
 
-      type: jsPsychHtmlKeyboardResponse,
-      stimulus: 'Hello world!'
+  }
 
-    }
+// where the images would be presented... duration, etc.. 
 
-   jsPsych.run([hello_trial]);  
+    const image_trial = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: '<img src="https://static.boredpanda.com/blog/wp-content/uploads/2025/10/DMtEumJy9cw-png__700.jpg" width="500">'
+    
+  }
+
+   jsPsych.run([hello_trial, image_trial]);
 
  </script>
 </html>
