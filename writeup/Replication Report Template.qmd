@@ -1,6 +1,6 @@
 ---
-title: "Replication of Study X by Sample & Sample (20xx, Psychological Science)"
-author: "Replication Author[s] (contact information)"
+title: Replication of "Unifying Scene-Object Congruency and Incongruency Benefits in Object Perception" (2025, Journal of Experimental Psychology: General)
+author: Zhou Su, Yuyang Qiu, and Xiaowei Ding
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 format:
   html:
